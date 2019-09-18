@@ -6,7 +6,7 @@ body {
 }
 
 .movie-card {
-  background-color: #fff;
+  background-color: #fcf5f5;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -14,13 +14,26 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  width: 50%;
+  text-align: center;
 }
 
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
 }
+.movie-star {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #413e3e;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 .saved-list {
   background-color: #fff;
   border: 0;
